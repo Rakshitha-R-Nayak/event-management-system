@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="viewEvents.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Find Events Near You</h2>
+        
+        <!-- Location Input -->
+        <input type="text" id="locationInput" placeholder="Enter Location" required>
+        <button onclick="fetchEventsByLocation()">Search Events</button>
+        
+        <!-- Events List -->
+        <ul id="eventList"></ul>
+
+        <button onclick="goBack()">Back to Dashboard</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 20px;
+    
+    justify-content: center;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button, .back-button {
+    padding: 12px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 5px;
+ 
+}
+
+button:hover, .back-button:hover {
+    background: #0056b3;
+}
+
+.back-button {
+    background: #28a745;
+    
+}
+
+.back-button:hover {
+    background: #218838;
+}
+
+/* Event Grid */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* Event Cards */
+.event-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Event Image */
+.event-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Event Details */
+.event-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.event-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Message Display */
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+    word-wrap: break-word;
+}
+
+/* Navigation Links */
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust spacing */
+}
+
+body {
+    
+    background-image: url('image.jpeg'); /* Change this to your image path */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-image: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat; /* Prevents repeating */
+}

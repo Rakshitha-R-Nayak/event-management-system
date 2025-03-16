@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="dashboard.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, <span id="userName">User</span>!</h2>
+        <p>Email: <span id="userEmail"></span></p>
+        <p>Role: <span id="userRole"></span></p>
+        <h3>Your Registered Events</h3>
+        <ul id="eventList"></ul>
+        <button id="createEventBtn" style="display: none;" onclick="openCreateEventPage()">Create Event</button>
+        <button id="viewEventsBtn" style="display: none;" onclick="openViewEventsPage()">View Events</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+</body>
+</html>
